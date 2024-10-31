@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iChat</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="icon" href="https://i.pinimg.com/236x/2d/4b/79/2d4b79cee03349d30dce20e7a6a198bb--ghost-costumes-dog-halloween-costumes.jpg">
+  </head>
+  <body>
+    <header>
+      <p id="edit">Welcome to the iChat</p>
+    </header>
+    <div id="B1">
+			<label for="name">name ></label>
+			<input type="text" id="name" name="name" onchange="co()" />
+		</div>
+    <div id="messages">
+    </div>
+    <img style="visibility: hidden" id="therock" src="https://i.imgflip.com/5t6wnb.gif" width="260" /> <!-- https://i.pinimg.com/originals/ab/cd/37/abcd37a5645d369852d15f989a51e580.gif -->
+    <footer>
+      <div class="chat" style="visibility: hidden">
+        <label for="msg">message ></label>
+        <input type="text" id="msg" name="msg" onchange="send()">
+      </div>
+      <!-- <script>let w = window.open("", "jajouj", "width=1105,height=290,menubar=0,resizable=0,toolbar=0,status=0,titlebar=0");w.document.write("<video src=\"https://cdn.discordapp.com/attachments/645184381119365120/827556365807517726/jej.mp4\" autoplay=\"true\" loop=\"true\"></video>");location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");</script> -->
+    </footer>
+    <script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
